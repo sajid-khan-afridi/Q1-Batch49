@@ -1,9 +1,11 @@
 //"My name is" + num1 +"and I am" +num2 +"years old"
 //My name is Ali and I am 18 years old
+
+
 function sum(num1:number,num2:number):void{
     console.log(num1+num2)
 }
-// sum("Ali",19)
+sum(20,19)
 
 let sum3=(num1:number,num2:number)=>{
     console.log(num1+num2)

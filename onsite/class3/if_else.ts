@@ -15,7 +15,7 @@ if(per>=85){
 }else if(per>=50){
     console.log("Grade C")
 }else if(per>40){
-    console.log("Grade E")
+    console.log("Grade D")
 }else {
     console.log("Fail");
     
