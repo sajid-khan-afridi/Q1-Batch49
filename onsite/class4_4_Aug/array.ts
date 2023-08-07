@@ -38,8 +38,14 @@
 
 // let anyValus:(number|string|boo)
 
-const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
-const citrus = fruits.slice(1,3); // [Orange,Lemon,Apple,Mango]
-fruits.splice(3,2)
-console.log(fruits)
-// console.log(citrus)
+// const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+// const citrus = fruits.slice(1,3); // [Orange,Lemon,Apple,Mango]
+// fruits.splice(3,2)
+// console.log(fruits)
+// // console.log(citrus)
+
+// Loop
+
+let fruit=["apple", "orange", "banana","apricot"];
+fruit.pop();
+
