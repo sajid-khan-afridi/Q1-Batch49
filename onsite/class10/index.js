@@ -134,7 +134,7 @@ const failingResponse = ["Not Found", 404];
 // but you will need to declare its type as a tuple.
 const passingResponse = ["{}", 200];
 if (passingResponse[1] === 200) {
-    const localInfo = passingResponse[0];
+    const localInfo = JSON.parse(passingResponse[0]);
     console.log(localInfo);
 }
 const staff = [
